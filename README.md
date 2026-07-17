@@ -22,7 +22,7 @@ Design a secure and reliable Wide Area Network (WAN) connecting the Meridian Ban
 - [x] Project initialized
 
 ### Upcoming tasks
-- [ ] Study WAN fundamentals
+- [x] Study WAN fundamentals
 - [ ] Prepare the Bill of Materials (BoM)
 - [ ] Design the network topology
 - [ ] Configure PPP and CHAP
