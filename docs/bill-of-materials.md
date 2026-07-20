@@ -17,12 +17,22 @@ This document contains the list of required network equipment and resources for 
 7. Fiber Optic Cabling
 8. Copper Cabling
 9. DCE/DTE Assignment
-10.Clock Rate Configuration
+10. Clock Rate Configuration
 11. Hardware Cost Estimation
 12. Physical Installation Risks
 13. Network Architecture Summary
 
 ## Acronyms Key
+
+| Acronym | Meaning |
+|---|---|
+| WAN | Wide Area Network |
+| LAN | Local Area Network |
+| HQ | Headquarters |
+| BoM | Bill of Materials |
+| SFP | Small Form-factor Pluggable |
+| SMF | Single-Mode Fiber |
+| Mbps | Megabits per second |
 
 
 ## Site Information
