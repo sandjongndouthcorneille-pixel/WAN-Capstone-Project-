@@ -72,3 +72,16 @@ The router is the primary device responsible for connecting each Local Area Netw
 | Branch B (Buea) | 60 | Cisco ISR 4321 | 1 | Suitable for a medium-sized regional office with reliable WAN connectivity. |
 | Branch C (Garoua) | 30 | Cisco ISR 2911 | 1 | Suitable for a smaller branch office with moderate traffic requirements. |
 | Branch D (Maroua) | 15 | Cisco ISR 1941 | 1 | Cost-effective router suitable for a remote branch with lower traffic needs. |
+
+## SFP Transceivers
+
+SFP (Small Form-factor Pluggable) transceivers provide the optical interface between Cisco routers and fiber optic connections. The selected transceivers must be compatible with the router interfaces and support single-mode fiber (SMF) for long-distance WAN connectivity.
+
+For this project, long-distance transmission between cities is provided through the carrier network infrastructure. The bank-side equipment requires compatible long-range optical modules for connection to the carrier demarcation points.
+
+| WAN Link | Distance | Recommended SFP | Quantity | Justification |
+|---|---:|---|---:|---|
+| HQ (Yaoundé) - Douala | 200 km | Cisco SFP-ZX | 2 | Long-range optical transceiver using single-mode fiber for WAN connectivity. |
+| HQ (Yaoundé) - Buea | 300 km | Cisco SFP-ZX | 2 | Suitable for reliable optical connection through the carrier network. |
+| HQ (Yaoundé) - Garoua | 800 km | Cisco SFP-ZX | 2 | Requires long-distance optical connectivity supported by carrier infrastructure. |
+| HQ (Yaoundé) - Maroua | 1000 km | Cisco SFP-ZX | 2 | Longest WAN link; carrier network provides extended distance transport. |
