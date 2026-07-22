@@ -32,7 +32,14 @@ This document contains the list of required network equipment and resources for 
 | BoM | Bill of Materials |
 | SFP | Small Form-factor Pluggable |
 | SMF | Single-Mode Fiber |
+| MMF | Multi-Mode Fiber |
 | Mbps | Megabits per second |
+| DCE | Data Circuit-terminating Equipment |
+| DTE | Data Terminal Equipment |
+| RJ-45 | Registered Jack 45 |
+| V.35 | Serial WAN Interface Standard|
+| RS-232 | Recommended Standard 232 |
+| LC | Lucent Connector |
 
 
 ## Site Information
@@ -47,7 +54,7 @@ This document contains the list of required network equipment and resources for 
 
 ## WAN Links
 
-| Link | Distance |
+| Link(|Distance |
 |---|---|
 | HQ - Douala | 200 km |
 | HQ - Buea | 300 km |
