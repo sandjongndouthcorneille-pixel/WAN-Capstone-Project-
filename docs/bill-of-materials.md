@@ -95,3 +95,36 @@ For this project, long-distance transmission between cities is provided through 
 | HQ (Yaoundé) - Buea | 300 km | Cisco SFP-ZX | 2 | Suitable for reliable optical connection through the carrier network. |
 | HQ (Yaoundé) - Garoua | 800 km | Cisco SFP-ZX | 2 | Requires long-distance optical connectivity supported by carrier infrastructure. |
 | HQ (Yaoundé) - Maroua | 1000 km | Cisco SFP-ZX | 2 | Longest WAN link; carrier network provides extended distance transport. |
+
+## Fiber Optic Cabling
+
+Single-Mode Fiber (SMF) is selected for all WAN links because it supports long-distance optical communication and is compatible with the selected Cisco SFP-ZX transceivers.
+
+| WAN Link | Fiber Type | Connector | Justification |
+|---|---|---|---|
+| HQ (Yaoundé) - Douala | SMF | LC | Long-distance fiber connection. |
+| HQ (Yaoundé) - Buea | SMF | LC | Compatible with Cisco SFP-ZX modules. |
+| HQ (Yaoundé) - Garoua | SMF | LC | Reliable transmission over long distances. |
+| HQ (Yaoundé) - Maroua | SMF | LC | Required for the longest WAN link. |
+
+## Copper Cabling
+
+Copper cables are used for Ethernet connectivity inside each site, router console access, and serial WAN connections during network simulation in Cisco Packet Tracer.
+
+| Cable Type | Purpose | Quantity | Justification |
+|---|---|---:|---|
+| RJ-45 Ethernet Cable | Connect routers, switches, and end devices | TBD | Required for internal LAN connectivity at all sites. |
+| V.35 Serial Cable | WAN serial connection between routers | 4 | Used for WAN link simulation in Cisco Packet Tracer. |
+| RS-232 Console Cable | Router configuration and troubleshooting | 1 | Used to configure Cisco routers through the console port. |
+
+## DCE/DTE Assignment
+
+Each serial WAN connection requires one router to operate as the DCE (Data Circuit-terminating Equipment) and the other as the DTE (Data Terminal Equipment). The DCE side provides the clock signal required for serial communication.
+
+| WAN Link | DCE Device | DTE Device | Justification |
+|---|---|---|---|
+| HQ (Yaoundé) - Douala | HQ Router | Douala Router | HQ is the central site and provides the clock signal. |
+| HQ (Yaoundé) - Buea | HQ Router | Buea Router | HQ is the central site and provides the clock signal. |
+| HQ (Yaoundé) - Garoua | HQ Router | Garoua Router | HQ is the central site and provides the clock signal. |
+| HQ (Yaoundé) - Maroua | HQ Router | Maroua Router | HQ is the central site and provides the clock signal. |
+
