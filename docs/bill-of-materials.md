@@ -30,6 +30,7 @@ This document contains the list of required network equipment and resources for 
 | LAN | Local Area Network |
 | HQ | Headquarters |
 | BoM | Bill of Materials |
+| TBD | To Be Determined |
 | SFP | Small Form-factor Pluggable |
 | SMF | Single-Mode Fiber |
 | MMF | Multi-Mode Fiber |
@@ -37,9 +38,10 @@ This document contains the list of required network equipment and resources for 
 | DCE | Data Circuit-terminating Equipment |
 | DTE | Data Terminal Equipment |
 | RJ-45 | Registered Jack 45 |
-| V.35 | Serial WAN Interface Standard|
+| V.35 | Serial WAN Interface Standard |
 | RS-232 | Recommended Standard 232 |
 | LC | Lucent Connector |
+| SFP-ZX | Cisco long-range optical SFP transceiver |
 
 
 ## Site Information
