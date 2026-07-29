@@ -135,3 +135,59 @@ Each serial WAN connection requires one router to operate as the DCE (Data Circu
 | HQ (Yaoundé) - Garoua | HQ Router | Garoua Router | HQ is the central site and provides the clock signal. |
 | HQ (Yaoundé) - Maroua | HQ Router | Maroua Router | HQ is the central site and provides the clock signal. |
 
+## Clock Rate Configuration
+
+The clock rate defines the speed of synchronization for serial WAN communication. It is configured only on the DCE side of a serial link.
+
+In this WAN design, HQ (Yaoundé) is assigned as the DCE side for all WAN connections. Therefore, the clock rate will be configured on the HQ router interfaces connected to each branch router.
+
+| WAN Link | DCE Device | Clock Rate | Purpose |
+|---|---|---|---|
+| HQ (Yaoundé) - Douala | HQ Router | 64000 bps | Provides synchronization for the serial WAN link. |
+| HQ (Yaoundé) - Buea | HQ Router | 64000 bps | Provides synchronization for the serial WAN link. |
+| HQ (Yaoundé) - Garoua | HQ Router | 64000 bps | Provides synchronization for the serial WAN link. |
+| HQ (Yaoundé) - Maroua | HQ Router | 64000 bps | Provides synchronization for the serial WAN link. |
+
+## Hardware Cost Estimation
+
+The hardware cost estimation provides an approximate budget analysis to verify that the proposed WAN design remains within the maximum project budget of $15,000 USD.
+
+| Equipment | Site/Usage | Quantity | Estimated Unit Cost (USD) | Estimated Total Cost (USD) |
+|---|---|---:|---:|---:|
+| Cisco ISR 4331 Router | HQ (Yaoundé) | 1 | TBD | TBD |
+| Cisco ISR 4321 Router | Douala and Buea | 2 | TBD | TBD |
+| Cisco ISR 2911 Router | Garoua | 1 | TBD | TBD |
+| Cisco ISR 1941 Router | Maroua | 1 | TBD | TBD |
+| Cisco SFP-ZX Transceiver | WAN Links | 8 | TBD | TBD |
+| Single-Mode Fiber Cable | WAN Connections | TBD | TBD | TBD |
+| RJ-45 Ethernet Cable | LAN Connections | TBD | TBD | TBD |
+| V.35 Serial Cable | WAN Simulation | 4 | TBD | TBD |
+| RS-232 Console Cable | Router Configuration | 1 | TBD | TBD |
+| **Estimated Total** | | | | **TBD** |
+
+## Physical Installation Risks
+
+| Risk | Impact |
+|---|---|
+| Fiber bend loss | Weak signal or link failure. |
+| Dirty fiber connector | Signal interruption. |
+| Wrong SFP type (MMF/SMF mismatch) | WAN connection failure. |
+| Loose cable connection | Unstable connectivity. |
+| Incorrect DCE/DTE cable assignment | Serial link synchronization failure. |
+
+## Network Architecture Summary
+
+The Meridian Bank WAN design connects the Headquarters in Yaoundé with four branch offices using WAN links and fiber optic connectivity.
+
+For the Cisco Packet Tracer demonstration, the real number of users will be reduced to a smaller simulated environment while maintaining the same network structure and communication principles.
+
+| Site | Real Users | Demo Users |
+|---|---:|---:|
+| HQ (Yaoundé) | 500 | 50 |
+| Douala | 120 | 12 |
+| Buea | 60 | 6 |
+| Garoua | 30 | 3 |
+| Maroua | 15 | 2 |
+
+The demonstration will keep the same WAN topology, routing, authentication, and connectivity logic as the real design.
+
