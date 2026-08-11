@@ -197,4 +197,52 @@ The demonstration will keep the same WAN topology, routing, authentication, and 
 <img width="1536" height="1024" alt="file_000000007cfc820eb2b80d9672042e30" src="https://github.com/user-attachments/assets/bdbb68c0-8436-41c4-903e-4b048a8e540d" />
 <img width="1536" height="1024" alt="file_000000009278820ea0829c4e937790f5" src="https://github.com/user-attachments/assets/65415899-7994-4774-821b-c7340d6ff8a3" />
 
+### Equipment Reference Images
+
+The following images provide visual references for the main network equipment and cabling specified in the Meridian Bank WAN design.
+
+#### 1. Cisco ISR Routers
+
+The Cisco ISR routers provide WAN connectivity at the Headquarters and branch offices.
+
+**Models used:**
+- Cisco ISR 4331 – HQ (Yaoundé)
+- Cisco ISR 4321 – Douala
+- Cisco ISR 4321 – Buea
+- Cisco ISR 2911 – Garoua
+- Cisco ISR 1941 – Maroua
+
+**Image:**
+<img width="728" height="366" alt="téléchargement (4)" src="https://github.com/user-attachments/assets/6d8ca7f5-c683-4446-af7d-fef1658148ba" />
+
+
+---
+
+#### 2. Cisco SFP-ZX Transceivers
+
+Cisco SFP-ZX transceivers provide the optical interface for long-distance Single-Mode Fiber connectivity.
+
+**Image:**
+<img width="554" height="554" alt="téléchargement (5)" src="https://github.com/user-attachments/assets/4c0ce921-784e-4608-9c70-3d7ecdd4c229" />
+
+
+---
+
+#### 3. Single-Mode Fiber (SMF)
+
+Single-Mode Fiber is used for the long-distance WAN connections. LC connectors are specified for the fiber connections.
+
+**Image:**
+<img width="400" height="400" alt="téléchargement (6)" src="https://github.com/user-attachments/assets/042ded3a-0b81-4677-ac01-a37e1904715a" />
+
+
+---
+
+#### 4. Copper Ethernet Cabling
+
+Copper Ethernet cabling is used for local connections between network devices within each site. It is not used for the long-distance WAN links.
+
+**Image:**
+<img width="447" height="447" alt="images (8)" src="https://github.com/user-attachments/assets/2d42b401-3dc5-401d-aa19-d9baeb90c6ff" />
+<img width="447" height="447" alt="images (9)" src="https://github.com/user-attachments/assets/473f69d5-6c68-4b81-b5f0-9eae3a0176f4" />
 
