@@ -193,3 +193,8 @@ For the Cisco Packet Tracer demonstration, the real number of users will be redu
 
 The demonstration will keep the same WAN topology, routing, authentication, and connectivity logic as the real design.
 
+### Network Architecture Diagrams
+<img width="1536" height="1024" alt="file_000000007cfc820eb2b80d9672042e30" src="https://github.com/user-attachments/assets/bdbb68c0-8436-41c4-903e-4b048a8e540d" />
+<img width="1536" height="1024" alt="file_000000009278820ea0829c4e937790f5" src="https://github.com/user-attachments/assets/65415899-7994-4774-821b-c7340d6ff8a3" />
+
+
